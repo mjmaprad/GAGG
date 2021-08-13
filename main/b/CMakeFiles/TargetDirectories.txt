@@ -1,0 +1,7 @@
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/install/strip.dir
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/install/local.dir
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/edit_cache.dir
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/install.dir
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/list_install_components.dir
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/rebuild_cache.dir
+/home/mostafa/Desktop/GAGG/b/CMakeFiles/cubedoz.dir

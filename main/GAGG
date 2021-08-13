@@ -1,0 +1,27 @@
+void GAGG()
+{
+///mass
+double mGd=157.25;
+double mAl=26.981;
+double mGa=69.723;
+double mO=16;
+// atom 
+double atGd=3;
+double atAl=2;
+double atGa=3;
+double atO=12;
+//total mass
+double mt=atGd*mGd+atAl*mAl+atGa*mGa+atO*mO;
+// mass fraction
+double frGd=atGd*mGd/mt;
+double frAl=atAl*mAl/mt;
+double frGa=atGa*mGa/mt;
+double frO=atO*mO/mt;
+cout <<" weight fraction"<<endl;
+cout <<"Gd "<<frGd<<endl;
+cout <<"Al "<<frAl<<endl;
+cout <<"Ga "<<frGa<<endl;
+cout <<"O "<<frO<<endl;
+cout<< "sum "<<frGd+frAl+frGa+frO<<endl;
+}
+

@@ -1,0 +1,118 @@
+/run/verbose 2
+/run/initialize /vis/open OGL 600x600-0/tracking/storeTrajectory 2
+/control/cout/ignoreThreadsExcept 0
++0
+/vis/viewer/refresh
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+/vis/sceneHandler/attach
+/vis/viewer/set/viewpointVector -1 0 0
+/vis/viewer/set/lightsVector -1 0 0
+/vis/viewer/set/style wireframe
+/vis/viewer/set/auxiliaryEdge true
+/vis/viewer/set/lineSegmentsPerCircle 100
+/vis/scene/add/trajectories smooth
+/tracking/storeTrajectory 2
+/vis/scene/notifyHandlers
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/scene/notifyHandlers scene-0
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+/vis/scene/notifyHandlers scene-0
+/vis/scene/endOfEventAction accumulate
+/vis/set/textColour green
+/vis/set/textLayout right
+/vis/scene/add/text2D 0.9 -.9 24 ! ! exampleED
+/vis/scene/notifyHandlers
+/vis/set/textLayout
+/vis/set/textColour
+/vis/scene/add/eventID
+/vis/scene/notifyHandlers
+/vis/set/colour red
+/vis/set/lineWidth 2
+/vis/scene/add/frame
+/vis/scene/notifyHandlers
+/vis/set/colour
+/vis/set/lineWidth
+/vis/geometry/set/visibility fWorld_LV 0 false
+/vis/scene/notifyHandlers
+/vis/viewer/set/style surface
+/vis/viewer/set/hiddenMarker true
+/vis/viewer/set/viewpointThetaPhi 0 0
+/vis/viewer/set/autoRefresh true
+/vis/viewer/refresh
+/vis/verbose warnings
+/vis/geometry/set/colour c1lv 0 1 0 0 1
+/vis/geometry/set/colour c2lv 0 0 1 0 1
+/vis/geometry/set/colour c3lv 0 0 0 1 1
+/vis/viewer/set/style w
+/vis/viewer/refresh
+/vis/viewer/set/hiddenEdge 0
+/vis/viewer/refresh
+/control/cout/ignoreThreadsExcept 0
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0. 0. 6.2 mm
+/gps/pos/radius 0.5 mm
+/gps/pos/halfz 0.5 mm
+/gps/ang/type iso
+/gps/ene/type User
+/gps/hist/type energy
+/gps/hist/point 0 6.23628750389312
+/gps/hist/point 0.033325258677371 8.5714780080977
+/gps/hist/point 0.097155414056822 12.5414402879192
+/gps/hist/point 0.135394677648199 12.5234453403467
+/gps/hist/point 0.189933211059972 18.6154272069765
+/gps/hist/point 0.25599543205177 12.4666920441568
+/gps/hist/point 0.300844378309167 9.15146901062394
+/gps/hist/point 0.331193549503409 4.90189293006193
+/gps/hist/point 0.399314807765512 2.75218880852682
+/gps/hist/point 0.443488943488944 2.49610686230406
+/gps/hist/point 0.470256428002907 14.4835103990033
+/gps/hist/point 0.473128698480811 28.1292175658373
+/gps/hist/point 0.481001488043742 45.7725715472194
+/gps/hist/point 0.484652386060837 55.8885005363879
+/gps/hist/point 0.495068692251791 62.0012458040627
+/gps/hist/point 0.505398484271724 55.1728553137004
+/gps/hist/point 0.513513513513513 45.0513894175866
+/gps/hist/point 0.523185797833685 27.8703671661418
+/gps/hist/point 0.532079454614666 14.2191230923625
+/gps/hist/point 0.561148216077794 2.44073779285046
+/gps/hist/point 0.617295913070561 1.23784475897153
+/gps/hist/point 0.837907049174655 1.13402775374607
+/gps/hist/point 0.999636640481711 1.29321382842508
+/gps/hist/point 1.07043983804547 0.318718206042149
+/gps/hist/point 1.1676125549365 0
+/gps/hist/point 1.22561165518912 3.53981382150397
+/gps/hist/point 1.2540921202893 7.76170536733918
+/gps/hist/point 1.27452676748451 8.45797141571788
+/gps/hist/point 1.29238329238329 7.50839187458902
+/gps/hist/point 1.3017787313562 4.91573519742531
+/gps/hist/point 1.32614112191577 1.13956466069141
+/gps/hist/point 1.3882755995432 0
+/gps/hist/point 1.45892307159913 0
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
